@@ -1,8 +1,6 @@
-/* hello.c */
-#include <stdio.h>
+#include "sum.h"
 
 void main (void)
 {
-	printf ("Hello World\n");
-	printf ("Goodbye World\n");
+	printf( "Sum of digits of number %d is %d\n", 123, sumOfDigits(123));
 }
